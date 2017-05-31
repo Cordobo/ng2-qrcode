@@ -1,6 +1,6 @@
 {
   "name": "ng2-qrcode",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Angular4 QRCode generator using qrcodejs",
   "author": "Andrea Patuzzo <andrea@pragmatic.club>",
   "license": "MIT",
