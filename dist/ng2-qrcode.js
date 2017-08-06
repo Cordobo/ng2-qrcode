@@ -1,5 +1,5 @@
 "use strict";
-/// <reference path="ngx-qrcode.d.ts"/>
+/// <reference path="ng2-qrcode.d.ts"/>
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -84,10 +84,9 @@ var QRCodeComponent = (function () {
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             template: ''
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" && _a || Object])
+        __metadata("design:paramtypes", [core_1.ElementRef])
     ], QRCodeComponent);
     return QRCodeComponent;
-    var _a;
 }());
 exports.default = QRCodeComponent;
-//# sourceMappingURL=ngx-qrcode.js.map
+//# sourceMappingURL=ng2-qrcode.js.map

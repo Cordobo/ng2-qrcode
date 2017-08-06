@@ -1,13 +1,13 @@
-/// <reference path="ngx-qrcode.d.ts"/>
+/// <reference path="ng2-qrcode.d.ts"/>
 
 import {
-  Component,
-  Input,
-  ElementRef,
-  OnChanges,
-  OnInit,
-  SimpleChange,
-  ChangeDetectionStrategy
+    Component,
+    Input,
+    ElementRef,
+    OnChanges,
+    OnInit,
+    SimpleChange,
+    ChangeDetectionStrategy
 } from '@angular/core';
 
 import * as QRCode from 'qrcodejs2';

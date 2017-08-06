@@ -1,10 +1,10 @@
-[![dependencies](https://david-dm.org/PragmaticClub/ngx-qrcode.svg)](https://david-dm.org/PragmaticClub/ngx-qrcode)
-# ngx-qrcode
-ngx-qrcode is a simple Angular4 Component for generating QRCode It uses [QRCode.js](https://davidshimjs.github.io/qrcodejs/). QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.
+[![dependencies](https://david-dm.org/PragmaticClub/ng2-qrcode.svg)](https://david-dm.org/PragmaticClub/ng2-qrcode)
+# ng2-qrcode
+ng2-qrcode is a simple Angular4 Component for generating QRCode It uses [QRCode.js](https://davidshimjs.github.io/qrcodejs/). QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.
 
 ## Install
 
-    npm install ngx-qrcode
+    npm install ng2-qrcode
 
 ## Basic Usage
 
@@ -12,7 +12,7 @@ ngx-qrcode is a simple Angular4 Component for generating QRCode It uses [QRCode.
 
 ```
 import {Component, OnInit} from '@angular/core';
-import {QRCodeComponent} from 'ngx-qrcode'
+import {QRCodeComponent} from 'ng2-qrcode'
 
 @Component({
   selector: 'YourMainComponent',

@@ -1,12 +1,12 @@
 {
-  "name": "ngx-qrcode",
-  "version": "0.1.6",
+  "name": "ng2-qrcode",
+  "version": "0.1.7",
   "description": "Angular4+ QRCode generator using qrcodejs",
   "author": "Andreas Jacob",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cordobo/ngx-qrcode.git"
+    "url": "git+https://github.com/Cordobo/ng2-qrcode.git"
   },
   "keywords": [
     "angular4",
@@ -15,17 +15,15 @@
     "qrcodejs",
     "ng2-qrcode"
   ],
-  "homepage": "https://github.com/Cordobo/ngx-qrcode#readme",
+  "homepage": "https://github.com/Cordobo/ng2-qrcode#readme",
   "bugs": {
-    "url": "https://github.com/Cordobo/ngx-qrcode/issues"
+    "url": "https://github.com/Cordobo/ng2-qrcode/issues"
   },
-  "main": "dist/ngx-qrcode.js",
-  "typings": "dist/ngx-qrcode",
+  "main": "dist/ng2-qrcode.js",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@types/angular": "^1.6.28",
     "qrcodejs2": "^0.0.2"
   },
   "peerDependencies": {
