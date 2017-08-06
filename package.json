@@ -1,12 +1,12 @@
 {
-  "name": "ng2-qrcode",
-  "version": "0.1.5",
-  "description": "Angular4 QRCode generator using qrcodejs",
-  "author": "Andrea Patuzzo <andrea@pragmatic.club>",
+  "name": "ngx-qrcode",
+  "version": "0.1.6",
+  "description": "Angular4+ QRCode generator using qrcodejs",
+  "author": "Andreas Jacob",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PragmaticClub/ng2-qrcode.git"
+    "url": "git+https://github.com/Cordobo/ngx-qrcode.git"
   },
   "keywords": [
     "angular4",
@@ -15,18 +15,17 @@
     "qrcodejs",
     "ng2-qrcode"
   ],
-  "homepage": "https://github.com/PragmaticClub/ng2-qrcode#readme",
+  "homepage": "https://github.com/Cordobo/ngx-qrcode#readme",
   "bugs": {
-    "url": "https://github.com/PragmaticClub/ng2-qrcode/issues"
+    "url": "https://github.com/Cordobo/ngx-qrcode/issues"
   },
-  "main": "dist/ng2-qrcode.js",
-  "typings": "dist/ng2-qrcode",
+  "main": "dist/ngx-qrcode.js",
+  "typings": "dist/ngx-qrcode",
   "scripts": {
-    "preinstall": "npm i typings -g",
-    "prepublish": "typings install && tsc",
-    "postinstall": "typings install"
+    "build": "tsc"
   },
   "dependencies": {
+    "@types/angular": "^1.6.28",
     "qrcodejs2": "^0.0.2"
   },
   "peerDependencies": {
@@ -40,7 +39,6 @@
     "es6-promise": "^3.0",
     "es6-shim": "^0.35",
     "tslint": "3.13.0",
-    "typescript": "^1.8.10",
-    "typings": "^0.8.1"
+    "typescript": "^2.4.0"
   }
 }

@@ -1,5 +1,5 @@
-/// <reference path="ng2-qrcode.d.ts"/>
 "use strict";
+/// <reference path="ngx-qrcode.d.ts"/>
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -9,8 +9,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var QRCode = require('qrcodejs2');
+Object.defineProperty(exports, "__esModule", { value: true });
+var core_1 = require("@angular/core");
+var QRCode = require("qrcodejs2");
 function isValidQrCodeText(data) {
     return !(typeof data === 'undefined' || data === '');
 }
@@ -54,38 +55,39 @@ var QRCodeComponent = (function () {
         }
     };
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', String)
+        core_1.Input(),
+        __metadata("design:type", String)
     ], QRCodeComponent.prototype, "qrdata", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Number)
+        core_1.Input(),
+        __metadata("design:type", Number)
     ], QRCodeComponent.prototype, "size", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', String)
+        core_1.Input(),
+        __metadata("design:type", String)
     ], QRCodeComponent.prototype, "level", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', String)
+        core_1.Input(),
+        __metadata("design:type", String)
     ], QRCodeComponent.prototype, "colordark", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', String)
+        core_1.Input(),
+        __metadata("design:type", String)
     ], QRCodeComponent.prototype, "colorlight", void 0);
     __decorate([
-        core_1.Input(), 
-        __metadata('design:type', Boolean)
+        core_1.Input(),
+        __metadata("design:type", Boolean)
     ], QRCodeComponent.prototype, "usesvg", void 0);
     QRCodeComponent = __decorate([
         core_1.Component({
             selector: 'qrcode',
             changeDetection: core_1.ChangeDetectionStrategy.OnPush,
             template: ''
-        }), 
-        __metadata('design:paramtypes', [core_1.ElementRef])
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" && _a || Object])
     ], QRCodeComponent);
     return QRCodeComponent;
+    var _a;
 }());
-exports.QRCodeComponent = QRCodeComponent;
-//# sourceMappingURL=ng2-qrcode.js.map
+exports.default = QRCodeComponent;
+//# sourceMappingURL=ngx-qrcode.js.map

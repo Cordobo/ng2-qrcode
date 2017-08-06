@@ -1,4 +1,4 @@
-/// <reference path="ng2-qrcode.d.ts"/>
+/// <reference path="ngx-qrcode.d.ts"/>
 
 import {
   Component,
@@ -21,7 +21,7 @@ function isValidQrCodeText(data: string) {
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: ''
 })
-export class QRCodeComponent implements OnChanges, OnInit {
+class QRCodeComponent implements OnChanges, OnInit {
   @Input() qrdata: string = '';
   @Input() size: number = 256;
   @Input() level: string = 'M';
@@ -66,3 +66,5 @@ export class QRCodeComponent implements OnChanges, OnInit {
   }
 
 }
+
+export default QRCodeComponent;
